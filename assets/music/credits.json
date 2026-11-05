@@ -1,0 +1,42 @@
+{
+  "title": "달빛의 다리",
+  "origin": "Original synthesized stereo compositions; no third-party samples",
+  "profile": {
+    "title": "달빛의 다리",
+    "root": 65,
+    "bpm": 70,
+    "color": "glass",
+    "minor": false,
+    "motif": [
+      0,
+      4,
+      7,
+      11,
+      12,
+      7,
+      4,
+      2
+    ]
+  },
+  "generator": "scripts/compose-music.py",
+  "tracks": [
+    {
+      "mode": "focus",
+      "bpm": 70,
+      "seconds": 54.857142857142854,
+      "peak": 0.2654408064934312,
+      "rms": 0.06274430002376646,
+      "seamDelta": 0.0033078753957020493,
+      "sha256": "182f0ce10aa9c0bb4a2fddfdeaa7e742c0a7a38cdb1af26f9d56d52d3738ec14"
+    },
+    {
+      "mode": "energy",
+      "bpm": 94,
+      "seconds": 40.85106575963719,
+      "peak": 0.39963005017511294,
+      "rms": 0.09906953959418326,
+      "seamDelta": 0.017115201430884464,
+      "sha256": "77205f019708bd0b026cec5d33a341cc8aafd1424580ad6808e2248023b65622"
+    }
+  ]
+}

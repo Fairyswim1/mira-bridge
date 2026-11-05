@@ -1,0 +1,23 @@
+{
+  "visualReview": true,
+  "references": [
+    {
+      "file": "미래엔_중학교수학2_교과서_5-4_일차함수의그래프의기울기와성질.pdf",
+      "sha256": "f62424aab3f93a1527cc93cb7725d9a12db96610c84bba4447f909f7ed77985e",
+      "pdfPages": [
+        1,
+        2,
+        3
+      ],
+      "printedPages": [
+        121,
+        122,
+        123
+      ],
+      "review": "y=ax+b의 기울기, y절편, 두 점의 변화량을 실제 PDF 렌더로 확인"
+    }
+  ],
+  "reviewImages": [
+    "curriculum/mira-slope.png"
+  ]
+}

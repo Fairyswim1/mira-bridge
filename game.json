@@ -1,0 +1,36 @@
+{
+  "id": "mira-bridge",
+  "title": "미라 브리지",
+  "subtitle": "직선이 잇는 별",
+  "grade": 2,
+  "unit": "5-4 일차함수의 그래프의 기울기와 성질",
+  "category": "변화와 관계",
+  "version": "1.0.0",
+  "description": "일차함수 카드로 좌표평면의 별들을 잇는 경로 퍼즐. 현재 점을 지나는 직선과 다음에 도착할 점을 생각하고, 뒤에 필요한 카드를 남기며 열두 별연꽃을 모아요.",
+  "tags": [
+    "일차함수",
+    "기울기",
+    "경로 계획"
+  ],
+  "duration": "20–35분",
+  "assets": [
+    "assets/background.png",
+    "assets/atlas.png",
+    "assets/button.png"
+  ],
+  "campaign": {
+    "rounds": 12,
+    "collectibles": 12,
+    "ending": true
+  },
+  "generatedRoles": {
+    "background": "assets/background.png",
+    "character": "assets/atlas.png bottom-left",
+    "item": "assets/atlas.png top-left",
+    "round": "assets/atlas.png top-right",
+    "reward": "assets/atlas.png bottom-right",
+    "button": "assets/button.png"
+  },
+  "repository": "https://github.com/Fairyswim1/mira-bridge",
+  "repositoryStatus": "created"
+}

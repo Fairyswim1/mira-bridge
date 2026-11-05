@@ -1,0 +1,81 @@
+{
+  "game": "mira-bridge",
+  "version": "2026.11.05.1",
+  "source": {
+    "title": "교육부 고시 제2022-33호 [별책8] 수학과 교육과정",
+    "sha256": "a11706f7c7a8e0aa650a4d08549895ff10f7920b1bee7b2c2f4ce79ad3795ac8",
+    "assessmentPages": {
+      "pdf": "53–55",
+      "printed": "47–49"
+    }
+  },
+  "standards": [
+    {
+      "code": "9수02-15",
+      "text": "일차함수의 개념을 이해하고, 그 그래프를 그릴 수 있다.",
+      "page": {
+        "pdf": 41,
+        "printed": 35
+      },
+      "commentaryReview": {
+        "pdf": [
+          42,
+          43
+        ],
+        "note": "표·식·그래프 등 다양한 표현, 실생활 연결 및 지나치게 복잡한 계산 지양. 해당 코드 전용 해설은 없으며 적용 시 고려사항 검토."
+      },
+      "skills": {
+        "points": {
+          "tasks": [
+            "u1",
+            "u2"
+          ],
+          "evidence": "주어진 식에서 두 점을 구하고 직선으로 연결"
+        }
+      },
+      "rubric": "식 대입으로 두 점을 계산하고 직선을 연결. 기울기는 y변화량/x변화량으로 설명. 학생의 그림·설명은 함께 검토.",
+      "limit": "두 점으로 그래프 구성 일부. 모든 일차함수와 개념 정의 전체의 이수 판정은 아님."
+    },
+    {
+      "code": "9수02-16",
+      "text": "일차함수의 그래프의 성질을 이해하고, 이를 활용하여 문제를 해결할 수 있다.",
+      "page": {
+        "pdf": 41,
+        "printed": 35
+      },
+      "commentaryReview": {
+        "pdf": [
+          42,
+          43
+        ],
+        "note": "표·식·그래프 등 다양한 표현, 실생활 연결 및 지나치게 복잡한 계산 지양. 해당 코드 전용 해설은 없으며 적용 시 고려사항 검토."
+      },
+      "skills": {
+        "slope": {
+          "tasks": [
+            "u3",
+            "u4"
+          ],
+          "evidence": "좌표 변화량과 양·음의 기울기"
+        },
+        "use": {
+          "tasks": [
+            "u5",
+            "u6"
+          ],
+          "evidence": "이동 후 좌표 예측 및 상황 속 변화량"
+        }
+      },
+      "rubric": "식 대입으로 두 점을 계산하고 직선을 연결. 기울기는 y변화량/x변화량으로 설명. 학생의 그림·설명은 함께 검토.",
+      "limit": "정수 좌표 및 간단한 유리수 기울기. 복잡한 실생활 모델링 전체 미확인."
+    }
+  ],
+  "recordPolicy": {
+    "firstResponse": true,
+    "helpExcluded": true,
+    "retryExcluded": true,
+    "studentExplanation": true,
+    "teacherReview": "함께 읽고 남긴 말",
+    "export": "readable HTML/print"
+  }
+}

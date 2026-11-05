@@ -1,0 +1,125 @@
+TAP version 13
+# Subtest: Round 1: line equation, slope, unique card use and all stars
+ok 1 - Round 1: line equation, slope, unique card use and all stars
+  ---
+  duration_ms: 2.634
+  ...
+# Subtest: Round 2: line equation, slope, unique card use and all stars
+ok 2 - Round 2: line equation, slope, unique card use and all stars
+  ---
+  duration_ms: 0.294
+  ...
+# Subtest: Round 3: line equation, slope, unique card use and all stars
+ok 3 - Round 3: line equation, slope, unique card use and all stars
+  ---
+  duration_ms: 0.2657
+  ...
+# Subtest: Round 4: line equation, slope, unique card use and all stars
+ok 4 - Round 4: line equation, slope, unique card use and all stars
+  ---
+  duration_ms: 0.248
+  ...
+# Subtest: Round 5: line equation, slope, unique card use and all stars
+ok 5 - Round 5: line equation, slope, unique card use and all stars
+  ---
+  duration_ms: 0.1661
+  ...
+# Subtest: Round 6: line equation, slope, unique card use and all stars
+ok 6 - Round 6: line equation, slope, unique card use and all stars
+  ---
+  duration_ms: 0.7362
+  ...
+# Subtest: Round 7: line equation, slope, unique card use and all stars
+ok 7 - Round 7: line equation, slope, unique card use and all stars
+  ---
+  duration_ms: 0.2384
+  ...
+# Subtest: Round 8: line equation, slope, unique card use and all stars
+ok 8 - Round 8: line equation, slope, unique card use and all stars
+  ---
+  duration_ms: 0.1238
+  ...
+# Subtest: Round 9: line equation, slope, unique card use and all stars
+ok 9 - Round 9: line equation, slope, unique card use and all stars
+  ---
+  duration_ms: 0.3849
+  ...
+# Subtest: Round 10: line equation, slope, unique card use and all stars
+ok 10 - Round 10: line equation, slope, unique card use and all stars
+  ---
+  duration_ms: 0.3971
+  ...
+# Subtest: Round 11: line equation, slope, unique card use and all stars
+ok 11 - Round 11: line equation, slope, unique card use and all stars
+  ---
+  duration_ms: 0.1853
+  ...
+# Subtest: Round 12: line equation, slope, unique card use and all stars
+ok 12 - Round 12: line equation, slope, unique card use and all stars
+  ---
+  duration_ms: 0.1143
+  ...
+# Subtest: Twelve different layouts and actual tutorial success
+ok 13 - Twelve different layouts and actual tutorial success
+  ---
+  duration_ms: 0.1579
+  ...
+# Subtest: Always taking the highest reachable point fails later
+ok 14 - Always taking the highest reachable point fails later
+  ---
+  duration_ms: 0.2436
+  ...
+# Subtest: A currently legal card may consume the only future route; undo restores it
+ok 15 - A currently legal card may consume the only future route; undo restores it
+  ---
+  duration_ms: 0.2852
+  ...
+# Subtest: Cannot reuse a card or use a line missing the current point
+ok 16 - Cannot reuse a card or use a line missing the current point
+  ---
+  duration_ms: 0.1241
+  ...
+# Subtest: Independent task u1
+ok 17 - Independent task u1
+  ---
+  duration_ms: 2.1864
+  ...
+# Subtest: Independent task u2
+ok 18 - Independent task u2
+  ---
+  duration_ms: 0.1282
+  ...
+# Subtest: Independent task u3
+ok 19 - Independent task u3
+  ---
+  duration_ms: 0.1625
+  ...
+# Subtest: Independent task u4
+ok 20 - Independent task u4
+  ---
+  duration_ms: 0.1002
+  ...
+# Subtest: Independent task u5
+ok 21 - Independent task u5
+  ---
+  duration_ms: 0.0781
+  ...
+# Subtest: Independent task u6
+ok 22 - Independent task u6
+  ---
+  duration_ms: 0.0729
+  ...
+# Subtest: A missing or wrong drawing cannot be independent graph success
+ok 23 - A missing or wrong drawing cannot be independent graph success
+  ---
+  duration_ms: 0.1047
+  ...
+1..23
+# tests 23
+# suites 0
+# pass 23
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 120.5196
