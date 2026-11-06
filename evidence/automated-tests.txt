@@ -2,124 +2,159 @@ TAP version 13
 # Subtest: Round 1: line equation, slope, unique card use and all stars
 ok 1 - Round 1: line equation, slope, unique card use and all stars
   ---
-  duration_ms: 2.634
+  duration_ms: 2.5836
   ...
 # Subtest: Round 2: line equation, slope, unique card use and all stars
 ok 2 - Round 2: line equation, slope, unique card use and all stars
   ---
-  duration_ms: 0.294
+  duration_ms: 0.2949
   ...
 # Subtest: Round 3: line equation, slope, unique card use and all stars
 ok 3 - Round 3: line equation, slope, unique card use and all stars
   ---
-  duration_ms: 0.2657
+  duration_ms: 0.2697
   ...
 # Subtest: Round 4: line equation, slope, unique card use and all stars
 ok 4 - Round 4: line equation, slope, unique card use and all stars
   ---
-  duration_ms: 0.248
+  duration_ms: 0.3183
   ...
 # Subtest: Round 5: line equation, slope, unique card use and all stars
 ok 5 - Round 5: line equation, slope, unique card use and all stars
   ---
-  duration_ms: 0.1661
+  duration_ms: 0.2551
   ...
 # Subtest: Round 6: line equation, slope, unique card use and all stars
 ok 6 - Round 6: line equation, slope, unique card use and all stars
   ---
-  duration_ms: 0.7362
+  duration_ms: 1.1412
   ...
 # Subtest: Round 7: line equation, slope, unique card use and all stars
 ok 7 - Round 7: line equation, slope, unique card use and all stars
   ---
-  duration_ms: 0.2384
+  duration_ms: 0.2657
   ...
 # Subtest: Round 8: line equation, slope, unique card use and all stars
 ok 8 - Round 8: line equation, slope, unique card use and all stars
   ---
-  duration_ms: 0.1238
+  duration_ms: 0.1324
   ...
 # Subtest: Round 9: line equation, slope, unique card use and all stars
 ok 9 - Round 9: line equation, slope, unique card use and all stars
   ---
-  duration_ms: 0.3849
+  duration_ms: 0.3927
   ...
 # Subtest: Round 10: line equation, slope, unique card use and all stars
 ok 10 - Round 10: line equation, slope, unique card use and all stars
   ---
-  duration_ms: 0.3971
+  duration_ms: 0.4179
   ...
 # Subtest: Round 11: line equation, slope, unique card use and all stars
 ok 11 - Round 11: line equation, slope, unique card use and all stars
   ---
-  duration_ms: 0.1853
+  duration_ms: 0.1936
   ...
 # Subtest: Round 12: line equation, slope, unique card use and all stars
 ok 12 - Round 12: line equation, slope, unique card use and all stars
   ---
-  duration_ms: 0.1143
+  duration_ms: 0.1103
   ...
 # Subtest: Twelve different layouts and actual tutorial success
 ok 13 - Twelve different layouts and actual tutorial success
   ---
-  duration_ms: 0.1579
+  duration_ms: 0.1635
   ...
 # Subtest: Always taking the highest reachable point fails later
 ok 14 - Always taking the highest reachable point fails later
   ---
-  duration_ms: 0.2436
+  duration_ms: 0.2544
   ...
 # Subtest: A currently legal card may consume the only future route; undo restores it
 ok 15 - A currently legal card may consume the only future route; undo restores it
   ---
-  duration_ms: 0.2852
+  duration_ms: 0.2936
   ...
 # Subtest: Cannot reuse a card or use a line missing the current point
 ok 16 - Cannot reuse a card or use a line missing the current point
   ---
-  duration_ms: 0.1241
+  duration_ms: 0.1316
   ...
 # Subtest: Independent task u1
 ok 17 - Independent task u1
   ---
-  duration_ms: 2.1864
+  duration_ms: 2.5693
   ...
 # Subtest: Independent task u2
 ok 18 - Independent task u2
   ---
-  duration_ms: 0.1282
+  duration_ms: 0.1403
   ...
 # Subtest: Independent task u3
 ok 19 - Independent task u3
   ---
-  duration_ms: 0.1625
+  duration_ms: 0.1746
   ...
 # Subtest: Independent task u4
 ok 20 - Independent task u4
   ---
-  duration_ms: 0.1002
+  duration_ms: 0.0985
   ...
 # Subtest: Independent task u5
 ok 21 - Independent task u5
   ---
-  duration_ms: 0.0781
+  duration_ms: 0.0823
   ...
 # Subtest: Independent task u6
 ok 22 - Independent task u6
   ---
-  duration_ms: 0.0729
+  duration_ms: 0.0765
   ...
 # Subtest: A missing or wrong drawing cannot be independent graph success
 ok 23 - A missing or wrong drawing cannot be independent graph success
   ---
-  duration_ms: 0.1047
+  duration_ms: 0.1061
   ...
-1..23
-# tests 23
+# Subtest: first visit always starts, including an old shared off URL
+ok 24 - first visit always starts, including an old shared off URL
+  ---
+  duration_ms: 1.4076
+  ...
+# Subtest: opening, abandoning, and refreshing do not mark the guide finished
+ok 25 - opening, abandoning, and refreshing do not mark the guide finished
+  ---
+  duration_ms: 0.9323
+  ...
+# Subtest: completion and explicit skip persist per game, with a clean shareable URL
+ok 26 - completion and explicit skip persist per game, with a clean shareable URL
+  ---
+  duration_ms: 2.5038
+  ...
+# Subtest: old valid completion is preserved; corrupt or started records do not skip
+ok 27 - old valid completion is preserved; corrupt or started records do not skip
+  ---
+  duration_ms: 0.5095
+  ...
+# Subtest: replay and practice never overwrite campaign or assessment records
+ok 28 - replay and practice never overwrite campaign or assessment records
+  ---
+  duration_ms: 0.4513
+  ...
+# Subtest: blocked local storage uses session completion without a redirect loop
+ok 29 - blocked local storage uses session completion without a redirect loop
+  ---
+  duration_ms: 0.4158
+  ...
+# Subtest: both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+ok 30 - both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+  ---
+  duration_ms: 0.372
+  ...
+1..30
+# tests 30
 # suites 0
-# pass 23
+# pass 30
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 120.5196
+# duration_ms 123.5842

@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-11-05T06:33:22.188946+00:00",
+  "browser": "Chrome via CUA",
+  "screenshots": [
+    "evidence/mira-final-desktop.png",
+    "evidence/mira-final-mobile.png",
+    "evidence/mira-actual390.png"
+  ],
+  "campaign": {
+    "rounds": 12,
+    "liveWins": [
+      1,
+      9
+    ],
+    "allSolutions": "Automated independent oracle and complete search",
+    "lateSavingCounterexample": "Round9 card0 leads to loss; undo then 1,2,0,3,4 wins",
+    "undo": true,
+    "persistence": true
+  },
+  "tutorial": {
+    "actualPracticeWin": true,
+    "keyboard": true,
+    "mobile": true,
+    "skip": true,
+    "replay": true,
+    "isolated": true
+  },
+  "assessment": {
+    "codes": [
+      "9수02-15",
+      "9수02-16"
+    ],
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "mobile": true,
+    "export": true,
+    "details": "All6 UI tasks. u1 numeric answers without graph rejected, help/retry correct excluded. u2 both plotted points accepted. Report 1/2,2/2,2/2. Explanation/review saved and reload verified. HTML download exists."
+  },
+  "typography": {
+    "status": "passed",
+    "mobileWidth": 390,
+    "notes": "Jua headings; 8 formula cards at390, smaller16px type inside full horizontal asset. No page overflow."
+  },
+  "audio": {
+    "focus": true,
+    "energy": true,
+    "continuous": true,
+    "soundTestClicked": true
+  },
+  "consoleErrors": [],
+  "limits": [
+    "No student playtest",
+    "Gameplay covers route reasoning; independent plotting is in separate notes."
+  ],
+  "sourceHash": "deeeb59d3c7af2aa1ce923af0260bf54b1c8d4fc4c3e44a160e59bfb00492078"
+}

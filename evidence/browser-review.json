@@ -5,7 +5,8 @@
   "screenshots": [
     "evidence/mira-final-desktop.png",
     "evidence/mira-final-mobile.png",
-    "evidence/mira-actual390.png"
+    "evidence/mira-actual390.png",
+    "evidence/first-visit-mobile.png"
   ],
   "campaign": {
     "rounds": 12,
@@ -56,5 +57,17 @@
     "No student playtest",
     "Gameplay covers route reasoning; independent plotting is in separate notes."
   ],
-  "sourceHash": "deeeb59d3c7af2aa1ce923af0260bf54b1c8d4fc4c3e44a160e59bfb00492078"
+  "sourceHash": "eae9e09dc760e260ed04a29e1cf775ed542caae8cc0e5e0aca0d5bd1e890eb01",
+  "firstVisitRevision": {
+    "checkedAt": "2026-11-06T04:44:54.288Z",
+    "id": "mira-bridge",
+    "firstVisitOff": true,
+    "startedStep": "직선으로 별에 닿아요",
+    "skipCleanUrl": true,
+    "reloadNoTour": true,
+    "replay": true,
+    "mobileWidth": 390,
+    "previousSourceHash": "deeeb59d3c7af2aa1ce923af0260bf54b1c8d4fc4c3e44a160e59bfb00492078",
+    "scope": "First-visit decision, isolated tutorial initialization, exit/reload and replay. Prior math and assessment browser evidence retained; existing automated suites rerun."
+  }
 }
