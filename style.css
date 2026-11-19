@@ -6,4 +6,71 @@ body{background-color:#102b3c}.panel,.play-panel,.notes section{background:#102b
 .notes #graph svg{max-height:380px}.draw-controls{display:flex;align-items:center;gap:12px}.draw-controls label{min-width:65px}.route-card .katex{font-size:1em}@media(max-width:760px){.route-card{font-size:18px}}
 :root{--font-body:var(--font-game-body);--font-title:var(--font-game-title);--font-hud:var(--font-game-display)}
 
+/* The playing surface follows the viewport; secondary content opens in dialogs. */
+.game-screen{height:100dvh;min-height:560px;display:flex;flex-direction:column}
+.game-screen>header{width:100%;flex:none;padding:8px 18px;gap:12px;min-height:65px}
+.game-screen .brand{display:grid;grid-template-columns:auto auto;align-items:baseline;column-gap:12px}
+.game-screen .home{grid-column:1/-1;font-size:13px}
+.game-screen h1{font-size:28px;margin:0}
+.game-screen>header nav{flex-wrap:nowrap;gap:4px}
+.game-screen>header button,.game-screen #tutorial-replay{min-height:40px;padding:8px 15px;font-size:15px}
+.game-screen>main{width:100%;flex:1;min-height:0;padding:6px 18px 10px;display:flex;flex-direction:column;gap:6px}
+.game-screen .intro{display:flex;flex-direction:column;gap:3px;flex:none;margin:0}
+.game-screen .intro p{font-size:16px;line-height:1.4;max-width:none;margin:0}
+.game-screen #rounds{max-width:100%;flex-wrap:nowrap;gap:4px;overflow-x:auto;padding:3px;flex:none}
+.game-screen #rounds button{flex:none;width:34px;height:34px;min-height:34px;padding:5px;font-size:17px}
+.game-screen .play-panel{flex:1;min-height:0;padding:10px 16px;display:grid;grid-template-rows:auto minmax(0,1fr) auto auto auto;gap:5px;border-radius:18px}
+.game-screen .stage small{font-size:13px}
+.game-screen .stage h2{font-size:23px;margin:0}
+.game-screen #goal{font-size:22px;white-space:nowrap}
+.game-screen .play-workspace{min-height:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,32%);gap:18px;align-items:stretch}
+.game-screen #graph{min-height:0;display:flex;align-items:center;justify-content:center}
+.game-screen #graph svg{width:100%;height:100%;min-height:0;max-height:none}
+.game-screen #cards{min-height:0;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:minmax(0,1fr);gap:6px;align-content:center}
+.game-screen .route-card{aspect-ratio:auto;min-height:0;padding:6px 14px;font-size:clamp(17px,1.7vw,23px);background-image:url(assets/button.png);background-size:100% 100%;background-position:center;gap:1px}
+.game-screen .route-card small{font-size:13px;line-height:1.1}
+.game-screen #selection{font:16px/1.4 var(--font-hud);min-height:24px;margin:0;text-align:center}
+.game-screen .actions{gap:6px;flex-wrap:nowrap}
+.game-screen .actions button{min-height:44px;padding:9px 16px;font-size:17px}
+.game-screen #message{font:16px/1.4 var(--font-hud);min-height:38px;margin:0;padding:7px 12px;display:flex;align-items:center;justify-content:center;text-align:center}
+.game-screen dialog{width:min(520px,calc(100vw - 24px));max-height:calc(100dvh - 24px);overflow:auto;background:#102b3c;color:#fff3dc;border:1px solid #99c1ce;border-radius:20px;padding:22px;box-shadow:0 15px 60px #0008}
+.game-screen dialog::backdrop{background:#041522b8}
+.game-screen .dialog-close{display:block;margin-left:auto;min-height:40px;padding:8px 20px;font-size:16px}
+.game-screen dialog .guide{width:120px}
+.game-screen dialog .collection{margin:8px 0 0}
+.game-screen .sound-controls{display:flex;flex-wrap:wrap;gap:8px}
+.game-screen #settings-dialog .atelier-music-panel{position:static!important;margin-top:12px!important;width:100%!important;max-width:none!important}
+.game-screen #settings-dialog .atelier-music{display:flex!important;width:100%;margin-top:12px!important}
+.game-screen.tutorial-active{height:auto;min-height:100dvh}
+.game-screen.tutorial-active>main{flex:none;height:calc(100dvh - 75px);min-height:540px}
+@media(max-width:760px){
+ .game-screen{min-height:640px}
+ .game-screen>header{padding:5px 10px;gap:4px;min-height:0;align-items:stretch}
+ .game-screen .brand{grid-template-columns:auto 1fr;column-gap:8px}
+ .game-screen .home{grid-column:auto;font-size:12px}
+ .game-screen h1{font-size:24px;grid-row:1;grid-column:2;text-align:right}
+ .game-screen .brand>span{display:none}
+ .game-screen>header nav{justify-content:space-between}
+ .game-screen>header button,.game-screen #tutorial-replay{padding:7px 10px;font-size:14px;min-height:36px}
+ .game-screen>main{padding:4px 8px 7px;gap:4px}
+ .game-screen #rounds{width:100%;gap:1px;padding:2px}
+ .game-screen #rounds button{width:27px;height:30px;min-height:30px;padding:3px;font-size:15px}
+ .game-screen .intro p{font-size:14px;line-height:1.3}
+ .game-screen .play-panel{padding:7px 9px;gap:4px;border-radius:14px}
+ .game-screen .stage h2{font-size:20px}
+ .game-screen .stage small{font-size:11px}
+ .game-screen #goal{font-size:19px}
+ .game-screen .play-workspace{grid-template-columns:1fr;grid-template-rows:minmax(140px,1fr) auto;gap:4px}
+ .game-screen #cards{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:45px;gap:3px}
+ .game-screen .route-card{flex-direction:row;gap:7px;padding:5px 15px;font-size:17px}
+ .game-screen .route-card small{font-size:12px}
+ .game-screen #selection{font-size:14px;min-height:20px}
+ .game-screen .actions{gap:2px}
+ .game-screen .actions button{font-size:15px;padding:8px 10px;min-height:40px}
+ .game-screen #message{font-size:14px;min-height:36px;padding:5px 8px}
+ .game-screen.tutorial-active>main{height:calc(100dvh - 80px);min-height:560px}
+}
+
 @media(max-width:760px){.route-card{background-image:url(assets/button.png);background-size:100% 100%;background-position:center;aspect-ratio:auto;min-height:90px;padding:12px 15px;font-size:16px;gap:2px}.route-card small{font-size:13px}}
+
+@media(max-width:760px){.game-screen #graph text[font-size="18"]{font-size:26px}.game-screen #graph text:not([font-size]){font-size:24px}}

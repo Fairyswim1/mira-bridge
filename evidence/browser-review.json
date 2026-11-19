@@ -6,7 +6,9 @@
     "evidence/mira-final-desktop.png",
     "evidence/mira-final-mobile.png",
     "evidence/mira-actual390.png",
-    "evidence/first-visit-mobile.png"
+    "evidence/first-visit-mobile.png",
+    "evidence/compact-desktop.jpg",
+    "evidence/compact-mobile.jpg"
   ],
   "campaign": {
     "rounds": 12,
@@ -57,7 +59,7 @@
     "No student playtest",
     "Gameplay covers route reasoning; independent plotting is in separate notes."
   ],
-  "sourceHash": "eae9e09dc760e260ed04a29e1cf775ed542caae8cc0e5e0aca0d5bd1e890eb01",
+  "sourceHash": "68e13adc148705a67a1ca31fe89a5d3d84d0c7215f1422c29bf19b292926524c",
   "firstVisitRevision": {
     "checkedAt": "2026-11-06T04:44:54.288Z",
     "id": "mira-bridge",
@@ -69,5 +71,43 @@
     "mobileWidth": 390,
     "previousSourceHash": "deeeb59d3c7af2aa1ce923af0260bf54b1c8d4fc4c3e44a160e59bfb00492078",
     "scope": "First-visit decision, isolated tutorial initialization, exit/reload and replay. Prior math and assessment browser evidence retained; existing automated suites rerun."
+  },
+  "compactLayoutRevision": {
+    "checkedAt": "2026-11-19T01:53:07.650Z",
+    "browser": "ChatGPT in-app browser via CUA",
+    "previousSourceHash": "eae9e09dc760e260ed04a29e1cf775ed542caae8cc0e5e0aca0d5bd1e890eb01",
+    "scope": "Gameplay layout and SVG label placement only; prior assessment/audio evidence retained, unchanged engines and assessment code.",
+    "viewports": [
+      {
+        "width": 1366,
+        "height": 769,
+        "scrollHeight": 769
+      },
+      {
+        "width": 1281,
+        "height": 720,
+        "scrollHeight": 720
+      },
+      {
+        "width": 390,
+        "height": 845,
+        "scrollHeight": 845
+      },
+      {
+        "width": 390,
+        "height": 700,
+        "scrollHeight": 700
+      }
+    ],
+    "maxEightCardsVisible": true,
+    "allFourVictoryButtonsVisible": true,
+    "round1ActualWin": true,
+    "helpDialogAndEscape": true,
+    "collectionDialog": true,
+    "soundSettingsDialog": true,
+    "tutorialKeyboardPracticeWin": true,
+    "tutorialSkipReplay": true,
+    "restoredRound12AfterPractice": true,
+    "mobileAxisLabelsEnlarged": true
   }
 }
